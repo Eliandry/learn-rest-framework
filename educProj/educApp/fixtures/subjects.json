@@ -1,0 +1,122 @@
+[
+{
+  "model": "educApp.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Music",
+    "slug": "music"
+  }
+},
+{
+  "model": "educApp.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Mathematic",
+    "slug": "mathematic"
+  }
+},
+{
+  "model": "educApp.subject",
+  "pk": 5,
+  "fields": {
+    "title": "English",
+    "slug": "english"
+  }
+},
+{
+  "model": "educApp.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 5,
+    "title": "Past Simple",
+    "slug": "past-simple",
+    "overview": "in this course we will study past simple",
+    "created": "2020-06-04T14:19:27.005Z"
+  }
+},
+{
+  "model": "educApp.course",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "subject": 4,
+    "title": "123",
+    "slug": "123",
+    "overview": "12313231",
+    "created": "2020-06-04T14:27:27.637Z"
+  }
+},
+{
+  "model": "educApp.module",
+  "pk": 4,
+  "fields": {
+    "course": 2,
+    "title": "start",
+    "description": "sssss",
+    "video": "Penguins.jpg",
+    "image": "0",
+    "file": "0"
+  }
+},
+{
+  "model": "educApp.module",
+  "pk": 5,
+  "fields": {
+    "course": 2,
+    "title": "11111",
+    "description": "",
+    "video": "Koala.jpg",
+    "image": "0",
+    "file": "0"
+  }
+},
+{
+  "model": "educApp.module",
+  "pk": 6,
+  "fields": {
+    "course": 2,
+    "title": "2222",
+    "description": "",
+    "video": "Tulips.jpg",
+    "image": "0",
+    "file": "0"
+  }
+},
+{
+  "model": "educApp.module",
+  "pk": 7,
+  "fields": {
+    "course": 3,
+    "title": "start1",
+    "description": "1232",
+    "video": "module/2020/06/04/Desert.jpg",
+    "image": "",
+    "file": ""
+  }
+},
+{
+  "model": "educApp.module",
+  "pk": 8,
+  "fields": {
+    "course": 3,
+    "title": "23321",
+    "description": "",
+    "video": "module/2020/06/04/Jellyfish.jpg",
+    "image": "",
+    "file": ""
+  }
+},
+{
+  "model": "educApp.module",
+  "pk": 9,
+  "fields": {
+    "course": 3,
+    "title": "2323",
+    "description": "2313",
+    "video": "module/2020/06/04/Koala.jpg",
+    "image": "",
+    "file": ""
+  }
+}
+]
